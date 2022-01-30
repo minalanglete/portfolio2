@@ -1,0 +1,138 @@
+.fronttext {
+  p {
+    color: #71f0b8;
+    display: inline;
+  }
+  h3 {
+    margin-top: 0px;
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    border-bottom: 1px solid #ff7ddb;
+    display: inline-block;
+    @media (max-width: 1230px) {
+      display: none;
+    }
+  }
+}
+.m-logo {
+  grid-area: top;
+  @media (max-width: 1230px) {
+    text-align: right;
+  }
+}
+.fronttext {
+  grid-area: text;
+  padding-left: 200px;
+  padding-right: 30px;
+  @media (max-width: 1230px) {
+    padding-left: 10px;
+  }
+}
+.menu {
+  grid-area: menu;
+  background-color: #241b2f;
+  height: 100%;
+  justify-self: end;
+  @media (max-width: 1230px) {
+    justify-self: auto;
+  }
+}
+footer {
+  grid-area: footer;
+  display: none;
+  .fab {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .footer-copy {
+    font-family: "menlo";
+    font-size: 20px;
+    color: #fc8939;
+  }
+  @media (max-width: 1230px) {
+    display: block;
+    text-align: center;
+    color: #a6a3ab;
+    background-color: #241b2f;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    width: 100%;
+  }
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "top menu"
+    "text menu";
+  @media (max-width: 1230px) {
+    grid-template-areas:
+      "menu top"
+      "text text"
+      "footer footer";
+  }
+}
+.yellow {
+  color: #f1d258;
+  display: inline-block;
+  background: none;
+}
+.p {
+  font-family: "new york";
+  font-size: 25px;
+  @media (max-width: 1230px) {
+    font-size: 15px;
+  }
+}
+.h2 {
+  font-size: 33px;
+  padding-right: 15px;
+  @media (max-width: 1230px) {
+    font-size: 15px;
+  }
+}
+
+.pink {
+  color: #ff7ddb;
+  display: inline-block;
+}
+.index {
+  width: 650px;
+  padding-bottom: 30px;
+  @media (max-width: 1230px) {
+    width: 330px;
+    padding-top: 30px;
+  }
+}
+.style {
+  width: 650px;
+  padding-left: 150px;
+  padding-bottom: 30px;
+  @media (max-width: 1430px) {
+    padding-left: 0px;
+  }
+  @media (max-width: 1230px) {
+    width: 330px;
+    padding-top: 30px;
+  }
+}
+.js {
+  width: 600px;
+  padding-left: 300px;
+  padding-bottom: 30px;
+  @media (max-width: 1430px) {
+    padding-left: 0px;
+  }
+  @media (max-width: 1230px) {
+    width: 330px;
+    padding-top: 30px;
+  }
+}
+.line2 {
+  padding-left: 50px;
+}
+main {
+  @media (max-width: 1230px) {
+    max-width: 400px;
+  }
+}

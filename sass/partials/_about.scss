@@ -1,0 +1,106 @@
+.profileimg {
+  max-width: 400px;
+  padding-top: 25px;
+  @media (max-width: 1230px) {
+    width: 300px;
+  }
+}
+.about-title {
+  top: 260px;
+  left: 100px;
+  @media (max-width: 1230px) {
+    top: 250px;
+    left: -90px;
+  }
+}
+p.preface {
+  font-family: "new york";
+  font-size: 20px;
+  text-align: right;
+  padding-bottom: 50px;
+  @media (max-width: 1230px) {
+    width: 300px;
+    padding-right: 50px;
+    padding-top: 120px;
+  }
+}
+p.preface2 {
+  font-family: "new york";
+  font-size: 20px;
+  text-align: right;
+  @media (max-width: 1230px) {
+    width: 300px;
+    padding-right: 50px;
+  }
+}
+.maincontent {
+  h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    @media (max-width: 1230px) {
+      padding-right: 53px;
+    }
+  }
+
+  .skills {
+    display: inline;
+    color: #f1d258;
+    width: 100%;
+    position: absolute;
+    top: 457px;
+    left: 814px;
+    padding-top: 5px;
+    margin: 0px;
+    @media (max-width: 1230px) {
+      display: block;
+      left: 40px;
+      top: 1100px;
+    }
+  }
+  .info {
+    list-style-type: none;
+    color: #71f0b8;
+    font-family: "menlo";
+    font-weight: lighter;
+    padding-left: 0px;
+    @media (max-width: 1230px) {
+      width: 300px;
+      padding-right: 50px;
+    }
+  }
+}
+.container-skills {
+  display: flex;
+  @media (max-width: 1230px) {
+    display: block;
+  }
+  .skills-list {
+    list-style-type: none;
+    width: 200px;
+    padding-left: 114px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    @media (max-width: 1230px) {
+      padding-left: 160px;
+    }
+  }
+}
+mark.red {
+  color: red;
+}
+.info-content {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+h2.mail {
+  font-size: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  @media (max-width: 1230px) {
+    font-size: 20px;
+    padding-left: 0px;
+    padding-right: 30px;
+  }
+}

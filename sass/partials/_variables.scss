@@ -1,0 +1,19 @@
+$colours: (
+  primary: #71f0b8,
+  secondary: #ff7ddb,
+  accent: #f1d258,
+  orange: #fc8939,
+  white: #ffffff,
+  darkblue: #241b2f,
+  blue: #262335,
+  grey: #40394a,
+  lightgrey: #a6a3ab,
+);
+
+@function getColour($colour) {
+  @return map-get($colours, $colour);
+}
+
+$font-primary: "menlo", serif;
+$font-nav: "monaco", serif;
+$font-header: "new york", serif;

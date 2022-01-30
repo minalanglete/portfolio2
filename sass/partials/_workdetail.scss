@@ -1,0 +1,66 @@
+.rainydays {
+  top: 380px;
+  left: -20px;
+  @media (max-width: 1230px) {
+    transform: rotate(0deg);
+    top: 130px;
+    left: 45px;
+  }
+}
+.fitness {
+  top: 425px;
+  left: -66px;
+  @media (max-width: 1230px) {
+    transform: rotate(0deg);
+    top: 130px;
+    left: 35px;
+  }
+}
+.museum {
+  top: 330px;
+  left: 25px;
+  @media (max-width: 1230px) {
+    transform: rotate(0deg);
+    top: 130px;
+    left: 50px;
+  }
+}
+.sneakers {
+  top: 485px;
+  left: -125px;
+  @media (max-width: 1230px) {
+    transform: rotate(0deg);
+    top: 110px;
+    left: 50px;
+  }
+}
+p.text-workdetail {
+  font-size: 20px;
+  text-align: right;
+  @media (max-width: 1230px) {
+    width: 300px;
+
+    text-align: left;
+  }
+}
+.view {
+  color: #f1d258;
+  text-align: right;
+  width: 950px;
+  padding-bottom: 50px;
+  @media (max-width: 1230px) {
+    width: 300px;
+    text-align: center;
+    padding-left: 30px;
+  }
+}
+
+.show-webpage {
+  width: 540px;
+  @media (max-width: 1230px) {
+    width: 300px;
+  }
+}
+a {
+  text-decoration: none;
+}
