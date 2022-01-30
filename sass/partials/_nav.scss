@@ -19,7 +19,8 @@ nav {
   }
   @media (max-width: 1230px) {
     position: relative;
-    display: inline-block;
+    font-size: 20px;
+    text-align: left;
     .nav {
     }
     a {
@@ -40,6 +41,13 @@ nav {
     list-style-type: none;
     width: 300px;
     padding-left: 0px;
+    @media (max-width: 1230px) {
+      width: 70px;
+      margin: auto;
+      position: absolute;
+      top: 10px;
+      left: 30px;
+    }
   }
   li {
     a {
